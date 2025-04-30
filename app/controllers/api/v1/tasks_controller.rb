@@ -39,7 +39,7 @@ module Api
        # PATCH / PUT /api/v1/tasks/:id
       def update
         # Update one record
-        if @task.update(task_params)
+        if @task.update(tasks_params)
           render json: {
             message: 'Task updated successfully',
             data: TaskSerializer.new(@task)
@@ -68,7 +68,7 @@ module Api
       end
 
       private
-      
+
       # Use callbacks to share common setup or constraints between actions.
       def set_task
         @task = Task.find_by(id: params[:id])
