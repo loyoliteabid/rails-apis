@@ -192,28 +192,3 @@ bundle exec rspec
 You’ll find tests inside `spec/requests/api/v1/tasks_spec.rb`.
 
 ---
-
-## 📚 What I Learned
-
-- How to structure a Rails API-only app
-- Route namespacing for versioned APIs
-- Writing custom controllers and serializers
-- Handling CORS in Rails
-- Testing API endpoints with RSpec
-- Setting up PostgreSQL-backed apps
-- Clean response formatting with serializers
-
----
-
-## ✅ Next Steps
-
-- Add pagination
-- Add authentication (e.g., JWT)
-- Connect a React or mobile frontend
-- Deploy to Render, Heroku, or Fly.io
-
----
-
-## 📬 Feedback
-
-This was a self-study project. Feedback, ideas, or contributions are welcome!
