@@ -39,7 +39,7 @@ gem "rack-cors"
 gem "active_model_serializers"
 
 # test
-gem "rspec-rails", "~> 7.1", :groups => [:development, :test]
+gem "rspec-rails", "~> 8.0", :groups => [:development, :test]
 
 gem 'tzinfo-data'
 
